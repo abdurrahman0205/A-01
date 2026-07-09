@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+/* For all <a> tag */
+a {
+  text-decoration: none;
+}
+
+/* Container */
+
+.container {
+  max-width: 1130px;
+  margin: auto;
+
+}
+/* Common Button */
+.common-btn {
+  padding: 13px 38px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  background-color: #1D4ED8;
+}
+
+/* Navbar */
+
+.nav-p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+
+
+}
+
+.logo {
+  width: 90%;
+}
+
+.nav-mid-li {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.nav-mid-li a {
+    color: #575757;
+}
+
+/* Banner/Hero Section Start */
+/* Found how to do the overlay through google searching */
+
+.hs-banner-p {
+
+  background: linear-gradient(-277deg,rgb(0, 0, 0), transparent 90%), url('./assets/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+ 
+}
+
+.hs-sub-banner {
+  text-align: center;
+  color: #ffffff;
+}
+.hs-banner-con {
+  display: flex;
+  flex-flow: column;
+
+}
+
+.hs-banner-con h1 {
+  font-size: 70px;
+  margin: 100px 0 0 0;
+
+}
+
+.hs-banner-con p {
+  opacity: 90%;
+  margin: 20px 260px 0;
+
+}
+
+.hs-btn-div {
+  margin: 250px 0 56px 0;
+}
+
+.hs-btn {
+  padding: 18px 58px;
+  font-size: large;
+}
+
