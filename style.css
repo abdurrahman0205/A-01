@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+
 /* For all <a> tag */
 a {
   text-decoration: none;
@@ -24,7 +25,15 @@ a {
   border: none;
   background-color: #1D4ED8;
 }
-
+.outline-btn {
+  padding: 13px 38px;
+  color: #2563EB;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid #2563EB;
+  background: none !important;
+  
+}
 /* Navbar */
 
 .nav-p {
@@ -65,12 +74,12 @@ a {
 }
 
 .hs-sub-banner {
-  text-align: center;
   color: #ffffff;
 }
 .hs-banner-con {
   display: flex;
   flex-flow: column;
+  align-items: center;
 
 }
 
@@ -83,6 +92,7 @@ a {
 .hs-banner-con p {
   opacity: 80%;
   margin: 20px 260px 0;
+  text-align: center;
 
 }
 
@@ -94,4 +104,138 @@ a {
   padding: 18px 58px;
   font-size: large;
 }
+/* Banner End */
 
+/* MS Section */
+.ms-h1 {
+  text-align: center;
+  margin: 50px 0 30px 0;
+  font-size: 2.9rem;
+}
+
+.ms-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+
+}
+
+.ms-card {
+   /* border: 0.5px solid #000000; */
+   /* padding: 0 0 20px 0; */
+   border-radius: 15px;
+   overflow: hidden;
+   box-shadow: 0 0 2px #aeadad;
+   
+}
+
+.ms-card img {
+  width: 100%;
+}
+
+.ms-intro-txt {
+  margin-left: 15px;
+  padding: 20px 0 20px 0;
+}
+
+.ms-intro-txt h4, h5, h6 {
+  margin: 10px 0 ;
+
+}
+
+.ms-intro-txt h6 {
+  color: #2563EB;
+}
+
+.ms-intro-txt h5 {
+  color: #575757;
+  font-weight: 400;
+}
+
+
+/* SYS Section Start */
+
+.sys-txt {
+  margin: 120px 0 30px 0;
+  text-align: center;
+}
+
+.sys-txt p {
+  font-size: 15px;
+  color: #aeadad;
+  margin-top: 15px;
+}
+.sys-txt h1 {
+  font-size: 2rem;
+
+}
+
+.sys-card-container {
+  display: grid;
+  grid-template-columns: 320px 319px 320px;
+  justify-content: center;
+  gap: 30px;
+
+  
+}
+
+.sys-card {
+  
+  box-shadow: 0 0 2px #aeadad;
+  border-radius: 15px;
+  padding: 10px 30px ;
+}
+
+.sys-card-txt h5 {
+  color: #888888;
+}
+.sys-card-txt p {
+  color: #333333;
+  opacity: 80%;
+  font-size: 0.8rem;
+  margin-bottom: 25px ;
+}
+.sys-card-txt hr {
+  border: .02rem solid #E5E7EB;
+}
+.sys-card-txt ul {
+  margin-top: 20px;
+  font-size: .8rem ;
+  
+}
+li::marker {
+  color: #2563EB;
+}
+.sys-card-txt ul li {
+  padding: 5px;
+}
+
+
+.sys-card-txt button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #2563EB;
+  
+}
+
+/* Second SYS Card */
+.sys-card-snd {
+  background: #0D1B2A ;
+
+}
+.sys-card-snd ul {
+  color: #ffffff;
+  opacity: 80%;
+}
+
+.sys-card-snd h5 {
+  color: #93C5FD;
+}
+.sys-card-snd h1 {
+  color: #ffffff;
+}
+
+.sys-card-snd p {
+  color: #ffffff;
+  opacity: 50%;
+}
