@@ -16,6 +16,7 @@ a {
   margin: auto;
 
 }
+
 /* Common Button */
 .common-btn {
   padding: 13px 38px;
@@ -26,6 +27,7 @@ a {
   background-color: #1D4ED8;
   cursor: pointer;
 }
+
 .outline-btn {
   padding: 13px 38px;
   color: #2563EB;
@@ -34,8 +36,9 @@ a {
   border: 1px solid #2563EB;
   background: none !important;
   cursor: pointer;
-  
+
 }
+
 /* Navbar */
 
 .nav-p {
@@ -58,8 +61,8 @@ a {
 }
 
 .nav-mid-li a {
-    color: #575757;
-    font-size: 0.9rem;
+  color: #575757;
+  font-size: 0.9rem;
 
 }
 
@@ -68,17 +71,18 @@ a {
 
 .hs-banner-p {
 
-  background: linear-gradient(-277deg,rgb(0, 0, 0), transparent 90%), url('./assets/banner.jpg');
+  background: linear-gradient(-277deg, rgb(0, 0, 0), transparent 90%), url('./assets/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
- 
+
+
 }
 
 .hs-sub-banner {
   color: #ffffff;
 }
+
 .hs-banner-con {
   display: flex;
   flex-flow: column;
@@ -107,6 +111,7 @@ a {
   padding: 18px 58px;
   font-size: large;
 }
+
 /* Banner End */
 
 /* MS Section */
@@ -124,12 +129,12 @@ a {
 }
 
 .ms-card {
-   /* border: 0.5px solid #000000; */
-   /* padding: 0 0 20px 0; */
-   border-radius: 15px;
-   overflow: hidden;
-   box-shadow: 0 0 2px #aeadad;
-   
+  /* border: 0.5px solid #000000; */
+  /* padding: 0 0 20px 0; */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 2px #aeadad;
+
 }
 
 .ms-card img {
@@ -141,8 +146,10 @@ a {
   padding: 20px 0 20px 0;
 }
 
-.ms-intro-txt h4, h5, h6 {
-  margin: 10px 0 ;
+.ms-intro-txt h4,
+h5,
+h6 {
+  margin: 10px 0;
 
 }
 
@@ -168,6 +175,7 @@ a {
   color: #575757;
   margin-top: 15px;
 }
+
 .sys-txt h1 {
   font-size: 2rem;
 
@@ -179,11 +187,11 @@ a {
   justify-content: center;
   gap: 30px;
 
-  
+
 }
 
 .sys-card {
-  
+
   box-shadow: 0 0 2px #aeadad;
   border-radius: 15px;
   padding: 10px 40px 35px 40px;
@@ -193,25 +201,29 @@ a {
   color: #888888;
   font-weight: 500;
 }
+
 .sys-card-txt p {
   color: #888888;
   opacity: 80%;
   font-size: 0.8rem;
-  margin-bottom: 25px ;
+  margin-bottom: 25px;
 }
+
 .sys-card-txt hr {
   border: .03rem solid #E5E7EB;
 }
 
 .sys-card-txt ul {
   margin-top: 20px;
-  font-size: .8rem ;
+  font-size: .8rem;
   color: #333333;
-  
+
 }
+
 li::marker {
   color: #2563EB;
 }
+
 .sys-card-txt ul li {
   padding: 5px;
 }
@@ -221,18 +233,20 @@ li::marker {
   width: 100%;
   margin-top: 20px;
   background-color: #2563EB;
-  
+
 }
 
 /* Second SYS Card */
 .sys-card-snd {
-  background: #0D1B2A ;
+  background: #0D1B2A;
 
 }
+
 .sys-card-snd hr {
   border: .03rem solid #ffffff;
   opacity: 10%;
 }
+
 .sys-card-snd ul {
   color: #ffffff;
   opacity: 80%;
@@ -241,6 +255,7 @@ li::marker {
 .sys-card-snd h5 {
   color: #93C5FD;
 }
+
 .sys-card-snd h1 {
   color: #ffffff;
 }
@@ -260,6 +275,7 @@ li::marker {
   margin: 70px 0;
   text-align: center;
 }
+
 /* AI Section coming soon - end */
 
 
@@ -275,12 +291,13 @@ li::marker {
 
 }
 
-.ft-left img{
+.ft-left img {
   margin: 20px 0 25px 0;
- 
+
 
 }
-.ft-left p{
+
+.ft-left p {
   color: #ffffff;
   font-size: 0.8rem;
   margin-top: 5px;
@@ -302,12 +319,12 @@ li::marker {
   margin-top: 20px;
 }
 
-.ft-middle ul li{
+.ft-middle ul li {
   margin: 11px 0;
   list-style: none;
 }
 
-.ft-middle a{
+.ft-middle a {
   color: #ffffff;
   font-size: .8rem;
   opacity: 50%;
@@ -316,11 +333,13 @@ li::marker {
 .ft-socials {
   margin: 20px 0 0 0;
 }
+
 .ft-socials span {
   text-align: left;
   margin: 0 5px 0 0;
   font-size: 20px;
 }
+
 .ft-socials a {
   color: #ffffff;
   opacity: 80%;
@@ -348,7 +367,7 @@ li::marker {
   font-size: 0.9rem;
 }
 
-.ft-copyright{
+.ft-copyright {
   color: #ffffff;
   opacity: 50%;
   font-size: 0.9rem;
@@ -356,13 +375,18 @@ li::marker {
 
 /* Hover Effects for Navbar and Footer links */
 
-.ft-middle a:hover,.ft-pat a:hover { /* For Footer Links */
+.ft-middle a:hover,
+.ft-pat a:hover {
+  /* For Footer Links */
   opacity: 90%;
 }
+
 .ft-socials a:hover {
   opacity: 100%;
 }
-.nav-mid-li a:hover { /* For Navbar Menu */
+
+.nav-mid-li a:hover {
+  /* For Navbar Menu */
   color: #000000e5;
 }
 
@@ -385,7 +409,7 @@ li::marker {
   margin: 0 0 20px 0;
 }
 
-.sched-head-txt p{
+.sched-head-txt p {
   font-size: 15px;
   color: #575757;
 }
@@ -395,6 +419,7 @@ li::marker {
   color: #ea2525;
 
 }
+
 .sched-head-txt p em {
   font-size: 15px;
   color: #080808;
@@ -468,7 +493,8 @@ li::marker {
   object-position: 80%;
 }
 
-.gary img, .mustafa img{
+.gary img,
+.mustafa img {
   object-position: 52%;
 }
 
@@ -495,49 +521,59 @@ li::marker {
 /* AI relevant section 2 */
 .sponsors {
   margin: 6rem 0;
+  text-align: center;
 }
 
 .sponsors h2 {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 500;
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 4rem 0 2rem 0;
+}
+.sponsors p {
+    font-size: 15px;
+    color: #575757;
+    margin: 0 0 30px 0;
 }
 
 .sponsor-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+
 }
 
 .sponsor-card {
-  height: 10rem;
 
   display: grid;
   place-items: center;
-
-  padding: 2rem;
-
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1rem 0;
   border-radius: 0.8rem;
-
-  background: rgba(255, 255, 255, 0.02);
-
+  background: #ffffff05;
   transition: all 0.3s ease;
+  border: 1px solid #ffffff3e;
+  cursor: pointer;
 }
+
+
 
 .sponsor-card:hover {
   transform: scale(1.05);
-
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-
-  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 12px 28px #a2a2a340;
+  border-color: #ffffff2e;
 }
 
 .sponsor-card img {
   max-width: 80%;
   max-height: 4.5rem;
-
   object-fit: contain;
 }
+
+
+.spn-section {
+  background: #0D1B2A;
+  border-radius: 10px;
+  padding: 40px;
+}
+
 /* AI relevant section End */
