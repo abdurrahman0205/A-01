@@ -10,11 +10,9 @@ a {
 }
 
 /* Container */
-
 .container {
   max-width: 1130px;
   margin: auto;
-
 }
 
 /* Common Button */
@@ -46,8 +44,6 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
-
-
 }
 
 .logo {
@@ -63,20 +59,15 @@ a {
 .nav-mid-li a {
   color: #575757;
   font-size: 0.9rem;
-
 }
 
 /* Banner/Hero Section Start */
-/* Found how to do the overlay through google searching */
 
 .hs-banner-p {
-
   background: linear-gradient(-277deg, rgb(0, 0, 0), transparent 90%), url('./assets/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-
 }
 
 .hs-sub-banner {
@@ -87,20 +78,17 @@ a {
   display: flex;
   flex-flow: column;
   align-items: center;
-
 }
 
 .hs-banner-con h1 {
   font-size: 70px;
   margin: 100px 0 0 0;
-
 }
 
 .hs-banner-con p {
   opacity: 80%;
   margin: 20px 260px 0;
   text-align: center;
-
 }
 
 .hs-btn-div {
@@ -111,10 +99,10 @@ a {
   padding: 18px 58px;
   font-size: large;
 }
-
 /* Banner End */
 
 /* MS Section */
+
 .ms-h1 {
   text-align: center;
   margin: 50px 0 30px 0;
@@ -125,16 +113,12 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   gap: 20px;
-
 }
 
 .ms-card {
-  /* border: 0.5px solid #000000; */
-  /* padding: 0 0 20px 0; */
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0 2px #aeadad;
-
 }
 
 .ms-card img {
@@ -146,11 +130,8 @@ a {
   padding: 20px 0 20px 0;
 }
 
-.ms-intro-txt h4,
-h5,
-h6 {
+.ms-intro-txt h4, h5, h6 {
   margin: 10px 0;
-
 }
 
 .ms-intro-txt h6 {
@@ -161,7 +142,6 @@ h6 {
   color: #575757;
   font-weight: 400;
 }
-
 
 /* SYS Section Start */
 
@@ -186,12 +166,9 @@ h6 {
   grid-template-columns: 320px 319px 320px;
   justify-content: center;
   gap: 30px;
-
-
 }
 
 .sys-card {
-
   box-shadow: 0 0 2px #aeadad;
   border-radius: 15px;
   padding: 10px 40px 35px 40px;
@@ -217,26 +194,23 @@ h6 {
   margin-top: 20px;
   font-size: .8rem;
   color: #333333;
-
 }
 
 li::marker {
   color: #2563EB;
 }
-
 .sys-card-txt ul li {
   padding: 5px;
 }
-
 
 .sys-card-txt button {
   width: 100%;
   margin-top: 20px;
   background-color: #2563EB;
-
 }
 
 /* Second SYS Card */
+
 .sys-card-snd {
   background: #0D1B2A;
 
@@ -267,16 +241,177 @@ li::marker {
 
 /* End of SYS */
 
-/* AI Section coming soon - start */
-.coming-soon h1 {
-  padding: 260px 0;
-  background: #ffe1b0b6;
-  border-radius: 20px;
-  margin: 70px 0;
+
+/* AI Relevant Section Start */
+
+/* Schedule Section Start */
+
+/* Shedule Div */
+.sch-div {
+  padding: 10px 20px 65px 20px;
+  box-shadow: 0 0 2px #aeadad;
+  margin: 60px 0;
+  border-radius: 15px;
+}
+
+.sched-head-txt {
+  text-align: center;
+  margin: 9rem 0 0 0;
+}
+
+.sched-head-txt h2 {
+  font-size: 2rem;
+  margin: 0 0 20px 0;
+}
+
+.sched-head-txt p {
+  font-size: 15px;
+  color: #575757;
+}
+
+.sched-head-txt p span {
+  font-size: 15px;
+  color: #ea2525;
+
+}
+
+.sched-head-txt p em {
+  font-size: 15px;
+  color: #080808;
+  font-weight: 500;
+
+}
+
+.schedule-container {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.schedule-days {
+  display: flex;
+  justify-content: start;
+  border-bottom: 1px solid #ddd;
+}
+
+.schedule-days p {
+  padding: 1rem 1rem;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #888;
+  cursor: pointer;
+}
+
+.schedule-days .active {
+  color: #4f46e5;
+  border-bottom: 0.2rem solid #4f46e5;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.schedule-time p {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #7b7b7b;
+}
+
+.speaker-info {
+  display: grid;
+  grid-template-columns: 3.75rem 1fr;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.speaker-info img {
+  width: 100%;
+  height: 3.75rem;
+  border-radius: 0.3rem;
+  object-fit: cover;
+  object-position: 80%;
+}
+
+.gary img,
+.mustafa img {
+  object-position: 52%;
+}
+
+.speaker-info h4 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.speaker-info p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Schedule Section End */
+
+/* Sponsor Section Start */
+.sponsors {
+  margin: 6rem 0;
   text-align: center;
 }
 
-/* AI Section coming soon - end */
+.sponsors h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 4rem 0 2rem 0;
+}
+
+.sponsors p {
+  font-size: 15px;
+  color: #575757;
+  margin: 0 0 30px 0;
+}
+
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.sponsor-card {
+  display: grid;
+  place-items: center;
+  padding: 1rem 0;
+  border-radius: 0.8rem;
+  background: #ffffff05;
+  transition: all 0.3s ease;
+  border: 1px solid #ffffff3e;
+  cursor: pointer;
+}
+
+.sponsor-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 28px #a2a2a340;
+  border-color: #ffffff2e;
+}
+
+.sponsor-card img {
+  max-width: 80%;
+  max-height: 4.5rem;
+  object-fit: contain;
+}
+
+.spn-section {
+  background: #0D1B2A;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+/* Sponsor Section End */
+
+/* AI Relevant Section End*/
 
 
 /* Footer */
@@ -391,189 +526,4 @@ li::marker {
 }
 
 
-/* AI relevant section CSS */
 
-/* AI relevant section 1 */
-/* .schedule {
-  margin: 5rem auto; //schedule class? from section maybe
-} */
-
-
-.sched-head-txt {
-  text-align: center;
-  margin: 9rem 0 0 0;
-}
-
-.sched-head-txt h2 {
-  font-size: 2rem;
-  margin: 0 0 20px 0;
-}
-
-.sched-head-txt p {
-  font-size: 15px;
-  color: #575757;
-}
-
-.sched-head-txt p span {
-  font-size: 15px;
-  color: #ea2525;
-
-}
-
-.sched-head-txt p em {
-  font-size: 15px;
-  color: #080808;
-  font-weight: 500;
-
-}
-
-
-
-
-.schedule-container {
-  background: #fff;
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.schedule-days {
-  display: flex;
-  justify-content: start;
-
-  border-bottom: 1px solid #ddd;
-}
-
-.schedule-days p {
-  padding: 1rem 1rem;
-  text-align: left;
-
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #888;
-
-  cursor: pointer;
-}
-
-.schedule-days .active {
-  color: #4f46e5;
-  border-bottom: 0.2rem solid #4f46e5;
-}
-
-.schedule-item {
-  display: grid;
-  grid-template-columns: 10rem 1fr;
-
-  align-items: center;
-
-  padding: 1rem 2.5rem;
-  border-bottom: 1px solid #eee;
-}
-
-.schedule-time p {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #7b7b7b;
-}
-
-.speaker-info {
-  display: grid;
-  grid-template-columns: 3.75rem 1fr;
-  align-items: center;
-  gap: 1.25rem;
-}
-
-
-
-
-.speaker-info img {
-  width: 100%;
-  height: 3.75rem;
-  border-radius: 0.3rem;
-  object-fit: cover;
-  object-position: 80%;
-}
-
-.gary img,
-.mustafa img {
-  object-position: 52%;
-}
-
-.speaker-info h4 {
-  font-size: 1.35rem;
-  font-weight: 600;
-  margin-bottom: 0.35rem;
-}
-
-.speaker-info p {
-  font-size: 1rem;
-  color: #666;
-}
-
-/* Shedule Div */
-.sch-div {
-  padding: 10px 20px 65px 20px;
-  box-shadow: 0 0 2px #aeadad;
-  margin: 60px 0;
-  border-radius: 15px;
-}
-
-
-/* AI relevant section 2 */
-.sponsors {
-  margin: 6rem 0;
-  text-align: center;
-}
-
-.sponsors h2 {
-  font-size: 2rem;
-  font-weight: 500;
-  text-align: center;
-  margin: 4rem 0 2rem 0;
-}
-.sponsors p {
-    font-size: 15px;
-    color: #575757;
-    margin: 0 0 30px 0;
-}
-
-.sponsor-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-
-}
-
-.sponsor-card {
-
-  display: grid;
-  place-items: center;
-  padding: 1rem 0;
-  border-radius: 0.8rem;
-  background: #ffffff05;
-  transition: all 0.3s ease;
-  border: 1px solid #ffffff3e;
-  cursor: pointer;
-}
-
-
-
-.sponsor-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 28px #a2a2a340;
-  border-color: #ffffff2e;
-}
-
-.sponsor-card img {
-  max-width: 80%;
-  max-height: 4.5rem;
-  object-fit: contain;
-}
-
-
-.spn-section {
-  background: #0D1B2A;
-  border-radius: 10px;
-  padding: 40px;
-}
-
-/* AI relevant section End */

@@ -1,1 +1,0 @@
-1. Search for devonf website and I found a schedule and previous event gallery section. I liked the idea and it fit's the website. So, I used ChatGPT to generate the code based on the design.
