@@ -365,3 +365,160 @@ li::marker {
 .nav-mid-li a:hover { /* For Navbar Menu */
   color: #000000e5;
 }
+
+
+/* AI relevant section CSS */
+
+/* AI relevant section 1 */
+.schedule {
+  margin: 5rem auto;
+}
+
+.schedule h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.schedule-container {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.schedule-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.schedule-header h3 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.schedule-date {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.schedule-date p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666;
+}
+
+.schedule-days {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border-bottom: 1px solid #ddd;
+}
+
+.schedule-days p {
+  padding: 1.25rem;
+  text-align: center;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #888;
+
+  cursor: pointer;
+}
+
+.schedule-days .active {
+  color: #4f46e5;
+  border-bottom: 0.2rem solid #4f46e5;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+
+  align-items: center;
+
+  padding: 1.5rem 2.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.schedule-time p {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #7b7b7b;
+}
+
+.speaker-info {
+  display: grid;
+  grid-template-columns: 3.75rem 1fr;
+
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.speaker-info img {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 0.3rem;
+  object-fit: cover;
+}
+
+.speaker-info h4 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.speaker-info p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* AI relevant section 2 */
+.previous-events {
+  margin: 6rem auto;
+  text-align: center;
+}
+
+.previous-events h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+  color: #444;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  color: #555;
+}
+
+.description span,
+.description a {
+  color: #e63946;
+  text-decoration: none;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+  display: block;
+}
+/* AI relevant section End */
