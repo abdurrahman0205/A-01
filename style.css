@@ -130,7 +130,7 @@ a {
   padding: 20px 0 20px 0;
 }
 
-.ms-intro-txt h4, h5, h6 {
+.ms-intro-txt h4, .ms-intro-txt h5,.ms-intro-txt h6 {
   margin: 10px 0;
 }
 
@@ -399,7 +399,7 @@ li::marker {
 }
 
 .sponsor-card img {
-  max-width: 80%;
+  width: 80%;
   max-height: 4.5rem;
   object-fit: contain;
 }
