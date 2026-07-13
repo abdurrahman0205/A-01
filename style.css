@@ -105,7 +105,7 @@ a {
 
 .ms-h1 {
   text-align: center;
-  margin: 50px 0 30px 0;
+  margin: 60px 0 35px 0;
   font-size: 2.9rem;
 }
 
@@ -146,14 +146,14 @@ a {
 /* SYS Section Start */
 
 .sys-txt {
-  margin: 120px 0 30px 0;
+  margin: 120px 0 50px 0;
   text-align: center;
 }
 
 .sys-txt p {
   font-size: 15px;
   color: #575757;
-  margin-top: 15px;
+  margin: 20px 0 0 0;
 }
 
 .sys-txt h1 {
@@ -250,13 +250,13 @@ li::marker {
 .sch-div {
   padding: 10px 20px 65px 20px;
   box-shadow: 0 0 2px #aeadad;
-  margin: 60px 0;
+  margin: 50px 0;
   border-radius: 15px;
 }
 
 .sched-head-txt {
   text-align: center;
-  margin: 9rem 0 0 0;
+  margin: 120px 0 0 0;
 }
 
 .sched-head-txt h2 {
@@ -365,19 +365,20 @@ li::marker {
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
-  margin: 4rem 0 2rem 0;
+  margin: 120px 0 0 0;
 }
 
 .sponsors p {
   font-size: 15px;
   color: #575757;
-  margin: 0 0 30px 0;
+  margin: 20px 0 50px 0;
 }
 
 .sponsor-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+
 }
 
 .sponsor-card {
@@ -427,7 +428,7 @@ li::marker {
 }
 
 .ft-left img {
-  margin: 20px 0 25px 0;
+  margin: 45px 0 25px 0;
 
 
 }
@@ -451,7 +452,7 @@ li::marker {
   font-size: 1rem !important;
   font-weight: 500;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 45px;
 }
 
 .ft-middle ul li {
@@ -472,7 +473,7 @@ li::marker {
 .ft-socials span {
   text-align: left;
   margin: 0 5px 0 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .ft-socials a {
@@ -520,8 +521,8 @@ li::marker {
   opacity: 100%;
 }
 
+    /* For Navbar Menu */
 .nav-mid-li a:hover {
-  /* For Navbar Menu */
   color: #000000e5;
 }
 
